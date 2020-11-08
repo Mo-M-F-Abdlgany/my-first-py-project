@@ -1,10 +1,14 @@
 #constant
 PI = 3.14
-r=  float(input("Enter the radius of the circle :"))
+r= int(input("Enter the radius of the circle :"))
 #Area_circle 
 area= PI*r**2
-print(area)
+
 #Diameter_Circle 
 diameter=PI*2*r
-print(diameter)
+
+print("\nthe Circle Diameter:{} cm".format(diameter) )
+print("\n the Circle area:{} cm" .format(area))
+
+#Mohamed_Mahmod's
 #Mohamed_Mahmod's_task
